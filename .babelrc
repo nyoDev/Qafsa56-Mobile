@@ -1,0 +1,24 @@
+{
+    "plugins": [
+      [
+        "module-resolver",
+        {
+          "cwd": "babelrc",
+          "root": ["./"],
+          "extensions": [".js", ".ios.js", ".android.js"],
+          "alias": {
+            "components": "./src/app/components",
+            "constants": "./src/app/constants",
+            "fixtures": "./src/app/fixtures",
+            "images": "./src/app/images",
+            "navigation": "./src/app/navigation",
+            "screens": "./src/app/screens",
+            "services": "./src/app/services",
+            "theme": "./src/app/theme",
+            "assets": "./src/assets"
+          }
+        }
+      ]
+    ]
+  }
+  
